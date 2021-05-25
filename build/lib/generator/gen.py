@@ -27,12 +27,12 @@ multipliers = {
 }
 
 folders = {
-    'ldpi': "drawable-ldpi",
-    'mdpi': "drawable-mdpi",
-    'hdpi': "drawable-hdpi",
-    'xhdpi': "drawable-xhdpi",
-    'xxhdpi': "drawable-xxhdpi",
-    'xxxhdpi': "drawable-xxxhdpi"
+    'ldpi': "mipmap-ldpi",
+    'mdpi': "mipmap-mdpi",
+    'hdpi': "mipmap-hdpi",
+    'xhdpi': "mipmap-xhdpi",
+    'xxhdpi': "mipmap-xxhdpi",
+    'xxxhdpi': "mipmap-xxxhdpi"
 }
 
 
