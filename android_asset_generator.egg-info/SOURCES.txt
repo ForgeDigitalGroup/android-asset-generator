@@ -1,3 +1,4 @@
+LICENSE
 README.md
 setup.py
 android_asset_generator.egg-info/PKG-INFO

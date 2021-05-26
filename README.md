@@ -30,12 +30,12 @@ density  | The source density. If your images are mdpi, set mdpi as argument | l
 
 
 * The generated images will be saved in different folders within the specified path following the Android Studio standard:
-        drawable-ldpi
-        drawable-mdpi
-        drawable-hdpi
-        drawable-xhdpi
-        drawable-xxhdpi
-        drawable-xxxhdpi
+        mipmap-ldpi
+        mipmap-mdpi
+        mipmap-hdpi
+        mipmap-xhdpi
+        mipmap-xxhdpi
+        mipmap-xxxhdpi
 
 * The source images will be moved to the corresponding folder without having suffered alterations.
 * The last step is to import the generated folders to your Android Studio. project

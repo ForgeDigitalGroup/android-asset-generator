@@ -5,7 +5,7 @@ from PIL import Image
 from resizeimage import resizeimage
 
 root = ''
-density = 'hdpi'
+density = 'xxxhdpi'
 isFile = False
 
 densities = {
@@ -73,7 +73,7 @@ def getPathString(string):
 
 
 
-def createDrawableFolders(origin):
+def createMipmapFolders(origin):
     global isFile
     if isFile:
         origin = os.path.dirname(origin)
@@ -125,7 +125,7 @@ def folder():
         sys.exit()
 
     #creating directories
-    createDrawableFolders(root)
+    createMipmapFolders(root)
 
     #moving images to his directory
     for file in os.listdir(root):
@@ -149,7 +149,7 @@ def folder():
 def single():
     global density, root, isFile
     #Creating folders
-    createDrawableFolders(root)
+    createMipmapFolders(root)
     src = ''
     #Moving image to his folder
     if root.endswith(".jpg") or root.endswith(".png"):
