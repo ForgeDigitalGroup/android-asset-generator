@@ -2,7 +2,7 @@ from PIL import Image, ImageColor
 import sys
 
 # name of the file to save
-importFilename = "background-color.txt"
+importFilename = "../background-color.txt"
 exportFilename = "ic_launcher_background.png"
 
 width = 500
