@@ -1,5 +1,4 @@
 from PIL import Image, ImageColor
-import sys
 
 # name of the file to save
 importFilename = "../background-color.txt"
